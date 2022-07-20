@@ -1,0 +1,35 @@
+.table { 
+    margin: 10px; 
+    border-collapse: collapse;
+}
+.green {
+    background-color: green;
+}
+.white {
+    background-color: whitesmoke;
+}
+.grow {
+    width: 5em;
+    height: 5em;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    margin: 5px 1% 5px 1%;
+    transition: 0.5s;
+    text-align: center;
+    overflow: auto;
+  }
+.grow:hover {
+    transform: scale(2);
+  }
+.grow:hover > .hide {
+    display: block;
+}
+.hide {
+    display: none;
+  }
+.table {
+    margin: auto;
+  }
+h4 {
+    text-align: center;
+  }

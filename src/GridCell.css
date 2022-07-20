@@ -1,0 +1,18 @@
+.matrix {
+    width: 5em;
+    height: 5em;
+}
+table {
+    margin: auto auto auto auto;
+}
+.row_dupl {
+    color: red;
+}
+
+.col_dupl {
+    color: blue;
+}
+
+.grid_dupl {
+    color: gold;
+}
