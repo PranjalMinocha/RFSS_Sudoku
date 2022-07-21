@@ -1,7 +1,8 @@
 import React from "react";
-import Header from "./Header";
-import PuzzleForm from "./PuzzleForm";
-import GridSelect from "./GridSelect";
+import Header from "./Components/Header";
+import PuzzleForm from "./Components/PuzzleForm";
+import GridSelect from "./Components/GridSelect";
+import ProgressGraph from "./Components/ProgressGraph";
 
 function App() {
   // n = localStorage.getItem("n")
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <PuzzleForm />
       <GridSelect n={n} puzzles={puzzles}/> 
+      <ProgressGraph />
     </div>
   );
 }
