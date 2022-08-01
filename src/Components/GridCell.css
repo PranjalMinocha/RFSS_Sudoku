@@ -8,11 +8,21 @@ table {
 .row_dupl {
     color: red;
 }
-
+.row_dupl .col_dupl {
+    color: purple;
+}
 .col_dupl {
     color: blue;
 }
-
+.col_dupl .grid_dupl {
+    color: greenyellow;
+}
 .grid_dupl {
     color: gold;
+}
+.grid_dupl.row_dupl {
+    color: orange;
+}
+.grid_dupl.row_dupl.col_dupl {
+    color: darkgreen;
 }

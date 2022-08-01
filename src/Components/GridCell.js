@@ -13,7 +13,6 @@ const GridCell = (props) => {
     const j = props.j;
 
     mat = mat[n*i+j];
-    
     return (
         <div className="matrix">
             <table>
