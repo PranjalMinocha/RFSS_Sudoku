@@ -39,3 +39,6 @@ h4 {
 .grow:hover > .thumb {
     display: none;
 }
+.highlight {
+  color: red;
+}

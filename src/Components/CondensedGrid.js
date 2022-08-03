@@ -18,7 +18,7 @@ const CondensedGrid = (props) => {
                 <tr key={i}>
                     {rand.slice(0,n).map((rand, j) => {
                     return <td key={[i,j]} className={(i+j)%2===0 ? "green grow" : "white grow"}>
-                        <div className="thumb">{matrixSum(n, mats[n*i+j])}</div>
+                        <div className={"thumb " + ((matrixSum(n, mats[n*i+j]) === (n*n)*(n*n+1)/2)? "" : "highlight")}>{matrixSum(n, mats[n*i+j])}</div>
                         <div className="hide"><GridCell n={n} puzzle={puzzle} i={i} j={j} /></div>
                     </td>;
                     })}
